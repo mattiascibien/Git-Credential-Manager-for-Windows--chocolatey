@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>gcm</id>
+    <title>Git Credential Manager for Windows (Install)</title>
+    <version>0.9-beta3</version>
+    <authors>Microsoft</authors>
+    <owners>mattiascibien</owners>
+    <summary>The Git Credential Manager for Windows (GCM) provides secure Git credential storage for Windows. It's the successor to the Windows Credential Store for Git (git-credential-winstore), which is no longer maintained.</summary>
+    <description>
+      The [Git Credential Manager for Windows (GCM)](https://github.com/Microsoft/Git-Credential-Manager-for-Windows) provides secure Git credential storage for Windows. It's the successor to the [Windows Credential Store for Git  (git-credential-winstore)](https://gitcredentialstore.codeplex.com/), which is no longer maintained.
+
+      This project includes:
+      
+      * Secure password storage in the Windows Credential Store
+      * Multi-factor authentication support for Visual Studio Online.
+      * Two-factor authentication support for GitHub
+      * Personal Access Token generation and usage support for Visual Studio Online and GitHub
+      * Non-interactive mode support for Visual Studio Online backed by Azure Directory
+      * Optional settings for build agent optimization
+    </description>
+    <projectUrl>https://github.com/Microsoft/Git-Credential-Manager-for-Windows</projectUrl>
+    <packageSourceUrl>https://github.com/mattiascibien/Git-Credential-Manager-for-Windows--chocolatey</packageSourceUrl>
+    <projectSourceUrl>https://github.com/Microsoft/Git-Credential-Manager-for-Windows</projectSourceUrl>
+    <!--<docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>gcm admin git credentials</tags>
+    <copyright>Copyright (c) Microsoft Corporation.  All rights reserved.  
+    </copyright>
+    <licenseUrl>https://raw.githubusercontent.com/Microsoft/Git-Credential-Manager-for-Windows/master/LICENSE.TXT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/gcm.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
